@@ -1,0 +1,21 @@
+.u-menu-not-first {
+    margin-left: 63.8px;
+    @include tab {
+        margin-left: 64 / 1280 * 100vw;
+    }
+    @include sp {
+        margin-top: 37px;
+    }
+}
+
+.u-menu-first {    
+    @include sp {
+        margin-top: 109px;
+    }
+}
+
+.u-menu-first, .u-menu-not-first {
+    @include sp {
+        margin-left: 40 / $sp-menu-width * 100%;
+    }
+}

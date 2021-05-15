@@ -1,0 +1,149 @@
+.c-hover {
+    position: relative;
+	text-decoration: none;
+    &:after {
+        position: absolute;
+        content: '';
+        bottom: -2px;
+        left: 0;
+        width: 0;
+        height: 2.5px;
+        background: $palette-white;
+        transition: all 0.3s ease 0s;
+        @include sp {
+            background: $palette-black;
+        }
+    }
+
+    &:hover {
+        &:after {
+            width: 100%;
+        }
+    }
+}
+
+.c-background-img {
+    $pc-height: 800;
+    display: block;
+    height: $pc-height * 1px;
+    background-image: url(../images/mainvisual/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    @include tab {
+        height: $pc-height / $tab-standard * 100vw;
+    }
+    @include sp {
+        height: 673px;
+    }
+}
+
+.c-under-line-15 {
+    position: relative;
+    margin-bottom: 15px;
+    &:before {
+        content: "";
+        position: absolute;
+        width: 69px;
+        bottom: -15px;
+        border-bottom: 5px solid $palette-black;
+    }
+}
+
+.c-about-img {
+    width: 494 / $pc-article-width * 100%;
+    height: auto;
+    @include sp {
+        width: 100%;
+    }
+}
+
+.c-under-line-18 {
+    position: relative;
+    margin-bottom: 18px;
+    &:before {
+        content: "";
+        position: absolute;
+        width: 69px;
+        bottom: -18px;
+        border-bottom: 5px solid $palette-black;
+        transform: translate(50%);
+        @include tab {
+            transform: translate(25%);
+        }
+    }
+}
+
+.c-skill {
+    width: 30%;
+    @include sp {
+        width: 100%;
+    }
+    margin-bottom: 50px;
+}
+
+.c-skill-product {
+    width: 100%;
+}
+
+.c-skill-img {
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    aspect-ratio: 512 / 367.02;
+    border: solid 10px $palette-light-gray;
+    border-radius: 30px;
+    @include sp {
+        width: auto;
+    }
+}
+
+.c-skill-img.programing {
+    background-image: url("../images/main/programing.svg");
+}
+
+.c-skill-img.server {
+    background-image: url("../images/main/server.svg");
+}
+
+.c-skill-img.db {
+    background-image: url("../images/main/DB.svg");
+}
+
+.c-dotted-line {
+    height: 1px;
+    position: relative;
+    &:before {
+        content: "";
+        background-image: linear-gradient(to right, $palette-light-gray, $palette-light-gray 2px, transparent 2px, transparent 4px);
+        background-size: 4px 1px;
+        background-repeat: repeat-x;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+}
+
+.c-works-img {
+    width: 100%;
+}
+
+.c-information-column {
+    height: 46.1px;
+}
+
+.c-left-column {
+    vertical-align: middle;
+}
+
+.c-right-column {
+    vertical-align: middle;
+    text-align: right;
+}
+
+.c-features-img {
+    width: 100%;
+    margin-top: 30px;
+}

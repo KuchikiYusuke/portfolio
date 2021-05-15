@@ -1,0 +1,7 @@
+.l-footer {
+    height: 200px;
+    @include tab {
+        height: 150px;
+    }
+
+}

@@ -1,0 +1,34 @@
+.p-skill-list {
+    margin-bottom: 50px;
+}
+
+.p-information-table {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 500px;
+    @include tab {
+        margin-top: 75px;
+        margin-bottom: 75px;
+    }
+    @include sp {
+        width: 350px;
+    }
+}
+
+.p-features-list {
+    width: $pc-article-width * 1px;
+    @include tab {
+        width: $pc-article-width / $tab-responsive * 100%;
+    }
+    @include sp {
+        width: $sp-article-width / $sp-standard * 100%;
+    }
+}
+
+.p-features {
+    width: 1004px;
+    @include tab {
+        width: 100%;
+    }
+    margin-top: 60px;
+}

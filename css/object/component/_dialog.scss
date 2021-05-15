@@ -1,0 +1,247 @@
+// 文字の設定
+.c-mon-16-bold-10-text {
+    @include title-letter(16, 700, 10);
+    @include tab {
+        @include title-letter(12, 700, 10);
+    }
+}
+
+.c-mon-16-bold-20-text {
+    @include title-letter(16, 700, 20);
+    @include tab {
+        @include title-letter(12, 700, 20);
+    }
+}
+
+.c-mon-18-regular-text {
+    @include title-letter(18, 400, 0);
+    @include sp {
+        @include title-letter(24, 400, 0);
+    }
+}
+
+.c-mon-20-bold-text {
+    @include title-letter(20, 700, 50);
+}
+
+.c-mon-24-bold-0-text {
+    @include title-letter(24, 700, 0);
+}
+
+.c-mon-24-bold-20-text {
+    @include title-letter(24, 700, 20);
+}
+
+.c-mon-48-bold-0-text {
+    @include title-letter(48, 800, 0);
+    @include tab {
+        @include title-letter(38, 800, 0);
+    }
+}
+
+.c-mon-48-bold-20-text {
+    @include title-letter(48, 800, 20);
+    @include tab {
+        @include title-letter(38, 800, 20);
+    }
+}
+
+.c-mon-80-bold-text {
+    @include title-letter(80, 800, 50);
+    @include tab {
+        @include title-letter(40, 800, 50);
+    }
+}
+
+.c-yu-12-bold-text {
+    @include normal-letter(12, 700, 50);
+}
+
+.c-yu-16-bold-text {
+    @include normal-letter(16, 400, 0);
+    @include tab {
+        @include normal-letter(12, 400, 0)
+    }
+}
+
+.c-yu-16-medium-0-text {
+    @include normal-letter(16, 500, 0);
+    @include tab {
+        @include normal-letter(12, 500, 0)
+    }
+}
+
+.c-yu-16-medium-10-text {
+    @include normal-letter(16, 500, 10);
+    @include tab {
+        @include normal-letter(12, 500, 10)
+    }
+}
+
+.c-yu-16-medium-50-text {
+    @include normal-letter(16, 500, 50);
+    @include tab {
+        @include normal-letter(12, 500, 50)
+    }
+}
+
+.c-yu-24-bold-0-text {
+    @include normal-letter(24, 800, 0);
+    @include tab {
+        @include normal-letter(20, 800, 0)
+    }
+}
+
+.c-copy-title-size {
+    @include title-letter(64, 800, 0);
+    @include tab {
+        @include title-letter-vw(5, 800, 0);
+    }
+    @include sp {
+        @include title-letter(40, 800, 0)
+    }
+}
+
+.c-copy-text-size {
+    @include normal-letter(24, 800, 50);
+    @include tab {
+        @include normal-letter-vw(1.8, 800, 50);
+    }
+    @include sp {
+        @include normal-letter(16, 800, 50);
+    }
+}
+
+.c-skill-li {
+    box-sizing: border-box;
+}
+
+.c-copy-title {
+    line-height: 1.25;
+    transition: all $transition-speed;
+}
+
+.c-copy-text {
+    display: inline-block;
+    margin-left: 0.3vw;
+    margin-top: 2.5vw;
+    line-height: 1.33;
+    width: 475px;
+    @include tab {
+        margin-top: 23px;
+        margin-left: 4px;
+        width: 70%;
+    }
+    @include sp {
+        margin-top: 5px;
+        margin-left: 0;
+        width: 140px;
+    }
+}
+
+.c-copy-word {
+    white-space: nowrap;
+}
+
+.c-about-jap {
+    margin-top: 12px;
+}
+
+.c-about-sub-title {
+    margin-top: 36px;
+}
+
+.c-about-text {
+    margin-top: 12px;
+    line-height: 2;
+}
+
+.c-skill-jap {
+    margin-top: 12px;
+}
+
+.c-skill-product {
+    width: 32.3%;
+    @include sp {
+        width: 100%;
+        margin-bottom: 28px;
+    }
+}
+
+.c-skill-type {
+    margin-top: 23px;
+    @include tab {
+        margin-top: 12px;
+    }
+}
+
+.c-skill-name {
+    margin-top: 27px;
+    @include tab {
+        margin-top: 13px;
+    }
+}
+
+.c-skill-text {
+    margin-top: 10px;
+}
+
+.c-center {
+    text-align:center;
+}
+
+.c-works-eng {
+    display: inline-block;
+}
+
+.c-works-jap {
+    margin-top: 21px;
+}
+
+.c-works-info {
+    margin-top: 29px;
+    @include tab {
+        margin-top: 12px;
+    }
+}
+
+.c-works-tag {
+    margin-left: 17px;
+}
+
+.c-works-title {
+    margin-top: 5px;
+}
+
+.c-contact-jap {
+    margin-top: 21px;
+}
+
+// 新しい画面
+.c-logo {
+    margin-top: 8px;
+}
+
+.c-logo-text {
+    @include mrshef-letter(45, 400, 0);
+}
+
+.c-contact-link {
+    cursor: pointer;
+    text-decoration:underline;
+    &:hover {
+        color: $palette-blue;
+    }
+}
+
+.c-logo-footer-text {
+    @include mrshef-letter(50, 400, 0);
+}
+
+.c-works-own-title {
+    margin-top: 20px;
+}
+
+.c-features-title {
+    margin-top: 20px;
+}

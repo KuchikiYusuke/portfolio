@@ -1,0 +1,83 @@
+// 色設定
+$palette-white: #FFFFFF;
+$palette-gray: #F2F2F2;
+$palette-light-gray: #707070;
+$palette-brown: #A38787;
+$palette-dark-brown: #6F6565;
+$palette-light-black: #0A0A0A;
+$palette-black: #000000;
+$palette-blue: #0000ff;
+
+// サイズ設定
+// レスポンシブ基準
+$sp-responsive: 599;  // スマホ
+$tab-responsive: 1140; // タブレット
+
+// 各基準値
+$sp-standard: 375; // スマホサイズの基準値
+$tab-standard: 1280; // スマホサイズの基準値
+
+// 記事横幅
+$sp-article-width: 349; // スマホ記事の横幅サイズ
+$pc-article-width: 1004; // PC記事の横幅サイズ
+
+// 代表的な幅
+$sp-menu-width: 304;
+
+// レスポンシブサイズ設定
+@mixin tab {
+    @media (max-width: ($tab-responsive * 1px)) {
+        @content;
+    }
+}
+
+@mixin sp {
+    @media (max-width: ($sp-responsive * 1px)) {
+        @content;
+    }
+}
+
+// 文字設定
+@mixin normal-letter($size, $thickness, $space) {
+    font-family: "Yu Gothic", "Yu Gothic Medium", "游ゴシック Medium", "YuGothic", "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+    font-size: $size * 1px;
+    font-weight: $thickness;
+    letter-spacing: $space / 1000 * 1em;
+}
+
+@mixin normal-letter-vw($size, $thickness, $space) {
+    font-family: "Yu Gothic", "Yu Gothic Medium", "游ゴシック Medium", "YuGothic", "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+    font-size: $size * 1vw;
+    font-weight: $thickness;
+    letter-spacing: $space / 1000 * 1em;
+}
+
+@mixin title-letter($size, $thickness, $space) {
+    font-family: 'Montserrat', sans-serif;
+    font-size: $size * 1px;
+    font-weight: $thickness;
+    letter-spacing: $space / 1000 * 1em;
+}
+
+@mixin title-letter-vw($size, $thickness, $space) {
+    font-family: 'Montserrat', sans-serif;
+    font-size: $size * 1vw;
+    font-weight: $thickness;
+    letter-spacing: $space / 1000 * 1em;
+}
+
+// ハンバーガーメニュー遷移スピード
+$transition-speed: 0.5s;
+
+body {
+    overflow-x: hidden;
+}
+
+// 新しい画面
+@mixin mrshef-letter($size, $thickness, $space) {
+    font-family: mrsheffield-pro,sans-serif;
+    font-size: $size * 1px;
+    font-weight: $thickness;
+    letter-spacing: $space / 1000 * 1em;
+}
+

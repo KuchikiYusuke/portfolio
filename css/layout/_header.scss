@@ -1,0 +1,9 @@
+.l-header {
+    z-index: 2;
+    padding-top: 28px;
+    padding-left: 40px;
+    padding-right: 47px;
+    @include sp {
+        padding-left: 21px;
+    }
+}
