@@ -175,20 +175,11 @@
     }
 }
 
-.p-information-article {
+.p-article {
     width: 100%;
     background-color: $palette-gray;
-}
-
-.p-information-title {
-    width: $pc-article-width * 1px;
-    margin-top: 134px;
-    @include tab {
-        width: $pc-article-width / $tab-responsive * 100%;
-        margin-top: 85px;
-    }
-    @include sp {
-        width: $sp-article-width / $sp-standard * 100%;
+    &.information {
+        padding-top: 30px;
     }
 }
 

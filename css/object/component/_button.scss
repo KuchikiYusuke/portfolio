@@ -87,3 +87,27 @@
 		transform: translateY(-11.7px) rotate(315deg);	
 	}
 }
+
+.c-launch-btn {
+	color: $palette-white;
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	background: linear-gradient(90deg, $palette-light-green 0%, $palette-light-blue 100%);
+	box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+	border-radius: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	z-index: +1;
+	@include sp {
+		top: 30px;
+		right: 10px;
+	}
+	&:hover {
+		color: $palette-black;
+		background: linear-gradient(to right, $palette-yellow 0%, $palette-yellow 100%);
+		box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);	
+	}
+}

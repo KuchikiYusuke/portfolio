@@ -245,3 +245,14 @@
 .c-features-title {
     margin-top: 20px;
 }
+
+.c-information-title {
+    width: $pc-article-width * 1px;
+    @include tab {
+        width: $pc-article-width / $tab-responsive * 100%;
+    }
+    @include sp {
+        width: $sp-article-width / $sp-standard * 100%;
+    }
+}
+

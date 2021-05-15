@@ -11,7 +11,7 @@
         margin-bottom: 75px;
     }
     @include sp {
-        width: 350px;
+        width: $sp-article-width / $sp-standard * 100%;
     }
 }
 
