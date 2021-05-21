@@ -10,12 +10,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
-        <main class="l-main l-flex-column-center">
+        <header class="l-header u-b-color-gray">
+            <a href="index.html" class="c-logo c-logo-text">Portfolio</a>
             <a href="http://www.tanka-all-night.net/tanka/" class="c-launch-btn">
                 <span>site link</span>
             </a>
-            <article class="p-article information l-flex-column-center">
-                <h2 class="c-information-title l-flex-column-left">
+        </header>
+
+        <main class="l-main l-flex-column-center">
+            <article class="p-article information l-flex-column-center u-b-color-gray">
+                <h2 class="c-information-title l-flex-column-left u-article-width">
                     <span class="c-mon-48-bold-20-text c-under-line-15">Information</span>
                     <span class="c-works-jap c-yu-16-bold-text">概要</span>
                 </h2>
@@ -38,39 +42,65 @@
                     </tr>
                 </table>
             </article>
-            <article class="p-article l-flex-column-center">
-                <h2 class="c-information-title l-flex-column-left">
+            <article class="p-article concept l-flex-column-center u-article-padding-bottom u-b-color-gray">
+                <h2 class="c-information-title l-flex-column-left u-article-width">
+                    <span class="c-mon-48-bold-20-text c-under-line-15">Concept</span>
+                    <span class="c-works-jap c-yu-16-bold-text">制作意図</span>
+                </h2>
+                <p class="c-yu-16-bold-text c-concept-text u-article-width">
+                    <a href="http://swimmie.me/" class="c-reference-hp">このホームページ</a>を見て、スクロールに合わせて、文字が浮かんでは消えていくアニメーションが面白いな、と感じた。<br>
+                    自分でも、スクロールに合わせて浮かんで消えていくアニメーションを作りたい、と考えたのが、このサイトの制作のきっかけである。<br>
+                    <br>
+                    スクロールに合わせて、浮かんでは消えていく短歌を眺めながら、気づけば一晩中スクロールし続けているようなサイトを目指した。
+                </p>
+            </article>
+            <article class="p-article features l-flex-column-center u-article-padding-bottom u-b-color-gray">
+                <h2 class="c-information-title l-flex-column-left u-article-width">
                     <span class="c-mon-48-bold-20-text c-under-line-15">Features</span>
                     <span class="c-works-jap c-yu-16-bold-text">特徴</span>
                 </h2>
-                <ul class="p-features-list l-flex-column-center">
+                <ul class="p-features-list l-flex-column-center u-article-width">
                     <li class="p-features l-flex-column-center">
                         <p class="c-yu-24-bold-0-text c-features-title">無限スクロールにより、次々短歌が現れる</p>
-                        <video controls class="c-features-img">
+                        <p class="c-yu-16-bold-text c-features-text">
+                            スクロールし続けられるサイトにするため、ページの短歌数に制限を設けず、無限スクロールで短歌を表示し続けられるようにした。<br>
+                            無限スクロールは、ページのフッター部分を監視対象にしフッター部分がビューポートと交差したことをきっかけに、要素の追加処理を行う実装にした。<br>
+                            ユーザーが要素の追加処理をストレスに感じないよう、非同期処理で要素の追加処理を実装した。
+                        </p>
+                        <video controls class="c-features-video">
                             <source src='video/infinite-scroll.mp4' type='video/mp4'>
                         </video>
                     </li>
                     <li class="p-features l-flex-column-center">
                         <p class="c-yu-24-bold-0-text c-features-title">読み手、キーワードから検索が可能</p>
-                        <video controls class="c-features-img">
+                        <p class="c-yu-16-bold-text c-features-text">
+                            ユーザーの要望に沿った短歌を表示するため、短歌の検索機能を実装した。<br>
+                            JavaScriptからSELECTクエリを実装したPHPを実行し、DBに格納されている短歌を取得する。
+                        </p>
+                        <video controls class="c-features-video">
                             <source src='video/search.mp4' type='video/mp4'>
                         </video>
                     </li>
                     <li class="p-features l-flex-column-center">
                         <p class="c-yu-24-bold-0-text c-features-title">短歌のイメージ画像を古く加工している</p>
-                        <ul class="l-flex-row-center">
-                            <li><img src="images/feature/may.jpg" class="c-features-img-width-re"></li>
-                            <li><img src="images/feature/sepia_may.jpg" class="c-features-img-width-re"></li>
+                        <p class="c-yu-16-bold-text c-features-text">
+                            載せている短歌は青空文庫から引用しているため、50年以上前の作品である。<br>
+                            イメージ画像も短歌の年代に合わせるため、画像をセピア調の色彩に変更した。<br>
+                            画像をセピア調に変換するために、Pythonで色の種類、鮮やかさを固定し、明るさをグレースケール化した。
+                        </p>
+                        <ul class="c-features-img-list l-flex-row-center">
+                            <li class="c-features-img-area"><img src="images/feature/may.jpg" class="c-features-img"></li>
+                            <li class="c-features-img-area"><img src="images/feature/sepia_may.jpg" class="c-features-img"></li>
                         </ul>
                     </li>
                 </ul>
             </article>
-            <article class="p-article l-flex-column-center">
-                <h2 class="c-information-title l-flex-column-left">
+            <article class="p-article environment l-flex-column-center u-article-padding-bottom u-b-color-gray">
+                <h2 class="c-information-title l-flex-column-left u-article-width">
                     <span class="c-mon-48-bold-20-text c-under-line-15">Environment</span>
                     <span class="c-works-jap c-yu-16-bold-text">環境</span>
                 </h2>
-                <img src="images/feature/environment.png" class="c-features-img-width">
+                <img src="images/feature/environment.png" class="u-article-width c-environment-img">
             </article>
        </main>
         <footer class="l-footer l-flex-row-center-center u-b-color-dark-brown">

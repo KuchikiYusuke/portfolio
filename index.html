@@ -12,7 +12,7 @@
     <body>
         <mainvisual class="l-mainvisual c-background-img">
             <header class="l-header l-flex-row-space">
-                <span class="c-logo c-logo-text u-color-white">Portfolio</span>
+                <a href="index.html" class="c-logo c-logo-text u-color-white">Portfolio</a>
                 <section class="p-menu-part">
                     <nav class="p-menu">
                         <ul class="l-flex-menu">
@@ -43,7 +43,7 @@
             </a>
         </mainvisual>
         <main class="l-main l-flex-column-center">
-            <article class="p-about-article l-flex-about-text" id="about">
+            <article class="p-article about u-article-width l-flex-about-text" id="about">
                 <section class="p-about-text l-flex-column-left u-b-color-about">
                     <h2 class="l-flex-column-left">
                         <span class="c-about-title c-mon-48-bold-0-text c-under-line-15">About</span>
@@ -63,12 +63,12 @@
                 </section>
                 <img src="images/main/about.JPG" alt="about画像" class="c-about-img">
             </article>
-            <article class="p-skill-article l-flex-column-left" id="skill">
-                <h2 class="l-flex-column-left">
+            <article class="p-article skill l-flex-column-center" id="skill">
+                <h2 class="l-flex-column-left u-article-width">
                     <span class="c-mon-48-bold-20-text c-under-line-15">Skill</span>
                     <span class="c-skill-jap c-yu-16-bold-text">技術スキル</span>    
                 </h2>
-                <ul class="p-skill-list l-flex-skill">
+                <ul class="p-skill-list l-flex-skill u-article-width">
                     <li class="c-skill l-flex-column-center">
                         <figure class="c-skill-product l-flex-column-left">
                             <div class="c-skill-img programing"></div>
@@ -126,16 +126,16 @@
                     </li>
                 </ul>
             </article>
-            <article class="p-works-article l-flex-column-center" id="works">
-                <h2 class="p-works-title l-flex-column-left">
+            <article class="p-article works u-b-color-gray l-flex-column-center" id="works">
+                <h2 class="p-works-title l-flex-column-left u-article-width">
                     <span class="c-mon-48-bold-20-text c-under-line-15">Works</span>
                     <span class="c-works-jap c-yu-16-bold-text">制作物</span>
                 </h2>
                 <p class="c-yu-24-bold-0-text c-works-own-title">自作サイト</p>
-                <ul class="l-flex-works p-works-list">
+                <ul class="l-flex-works p-works-list u-article-width">
                     <li class="l-flex-column p-works-page">
                         <a href="works-tanka.html">
-                            <img src="images/main/works-20191203.png" class="c-works-img">
+                            <img src="images/main/works-tanka.png" srcset="images/main/works-tanka.png 1x, images/main/works-tanka@2x.png 2x" class="c-works-img">
                             <ul class="c-works-info l-flex-column">
                                 <li class="c-mon-16-bold-10-text">一晩中短歌に浸れるサイト</li>
                                 <li class="c-works-title c-yu-16-medium-10-text">
@@ -146,42 +146,41 @@
                         </a>
                     </li>
                     <li class="l-flex-column p-works-page">
-                        <img src="images/main/works-20191102_1.png" class="c-works-img">
-                        <div class="c-works-info l-flex-row-left">
-                            <time class="c-mon-16-bold-10-text">2019/11/2</time>
-                            <p class="c-works-tag c-yu-16-medium-10-text">お悩み</p>
-                        </div>
-                        <p class="c-works-title c-yu-16-medium-10-text">12月の営業日ご案内。</p>
+                        <a href="works-tanka.html">
+                            <img src="images/main/works-meat.png" srcset="images/main/works-meat.png 1x, images/main/works-meat@2x.png 2x" class="c-works-img">
+                            <ul class="c-works-info l-flex-column">
+                                <li class="c-mon-16-bold-10-text">一晩中短歌に浸れるサイト</li>
+                                <li class="c-works-title c-yu-16-medium-10-text">
+                                    <span>制作期間</span>
+                                    <span>2週間</span>
+                                </li>
+                            </ul>                            
+                        </a>
                     </li>
                     <li class="l-flex-column p-works-page">
-                        <img src="images/main/works-20191102_2.png" class="c-works-img">
-                        <div class="c-works-info l-flex-row-left">
-                            <time class="c-mon-16-bold-10-text">2019/11/2</time>
-                            <p class="c-works-tag c-yu-16-medium-10-text">プレスリリース</p>
-                        </div>
-                        <p class="c-works-title c-yu-16-medium-10-text">メイク始めました。</p>
-                    </li>    
-                    <li class="l-flex-column p-works-page p-forth-works">
-                        <img src="images/main/works-20191102_2.png" class="c-works-img">
-                        <div class="c-works-info l-flex-row-left">
-                            <time class="c-mon-16-bold-10-text">2019/11/2</time>
-                            <p class="c-works-tag c-yu-16-medium-10-text">プレスリリース</p>
-                        </div>
-                        <p class="c-works-title c-yu-16-medium-10-text">メイク始めました。</p>
-                    </li>    
+                        <a href="works-tanka.html">
+                            <img src="images/main/works-rerecre.png" srcset="images/main/works-rerecre.png 1x, images/main/works-rerecre@2x.png 2x" class="c-works-img">
+                            <ul class="c-works-info l-flex-column">
+                                <li class="c-mon-16-bold-10-text">一晩中短歌に浸れるサイト</li>
+                                <li class="c-works-title c-yu-16-medium-10-text">
+                                    <span>制作期間</span>
+                                    <span>2週間</span>
+                                </li>
+                            </ul>                            
+                        </a>
+                    </li>
                 </ul>
             </article>
-            <article class="p-contact-article" id="contact">
-                <h2 class="p-contact-title l-flex-column-left">
+            <article class="p-article contact l-flex-column-center" id="contact">
+                <h2 class="p-contact-title l-flex-column-left u-article-width">
                     <span class="c-mon-48-bold-20-text c-under-line-15">Contact</span>
                     <span class="c-contact-jap c-yu-16-bold-text">お問い合わせ</span>
                 </h2>
-                <section class="p-contact-text l-flex-column-left">
-                    <p class="c-yu-24-bold-0-text">
-                        制作の依頼・ご相談（無料）など
-                        <span class="c-contact-link">こちらから</span>
-                        ご連絡ください。</p>
-                </section>
+                <p class="c-contact-text c-yu-24-bold-0-text u-article-width">
+                    制作の依頼・ご相談（無料）など
+                    <span class="c-contact-link">こちらから</span>
+                    ご連絡ください。
+                </p>
             </article>
         </main>
         <footer class="l-footer l-flex-row-center-center u-b-color-dark-brown">

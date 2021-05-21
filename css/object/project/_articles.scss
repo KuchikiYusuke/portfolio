@@ -33,18 +33,6 @@
     }
 }
 
-.p-about-article {
-    width: $pc-article-width * 1px;
-    margin-top: 152px;
-    @include tab {
-        width: $pc-article-width / $tab-responsive * 100%;
-        margin-top: 103px;
-    }
-    @include sp {
-        width: $sp-article-width / $sp-standard * 100%;
-    }
-}
-
 .p-about-text {
     width: 409 / $pc-article-width * 100%;
     padding-top: 72px;
@@ -66,20 +54,6 @@
     }
 }
 
-.p-skill-article {
-    width: $pc-article-width * 1px;
-    margin-top: 147px;
-    margin-bottom: 67px;
-    @include tab {
-        width: $pc-article-width / $tab-responsive * 100%;
-        margin-top: 127px;
-        margin-bottom: 0px;
-    }
-    @include sp {
-        width: $sp-article-width / $sp-standard * 100%;
-    }
-}
-
 .p-skill-list {
     margin-top: 21px;
     @include tab {
@@ -87,34 +61,19 @@
     }
 }
 
-.p-works-article {
-    width: 100%;
-    background-color: $palette-gray;
-}
-
 .p-works-title {
-    width: $pc-article-width * 1px;
     margin-top: 134px;
     @include tab {
-        width: $pc-article-width / $tab-responsive * 100%;
         margin-top: 85px;
-    }
-    @include sp {
-        width: $sp-article-width / $sp-standard * 100%;
     }
 }
 
 .p-works-list {
     margin-top: 60px;
-    width: $pc-article-width * 1px;
     margin-bottom: 151.7px;
     @include tab {
         margin-top: 43px;
-        width: $pc-article-width / $tab-responsive * 100%;
         margin-bottom: 94px;
-    }
-    @include sp {
-        width: $sp-article-width / $sp-standard * 100%;
     }
 }
 
@@ -136,18 +95,6 @@
     }
 }
 
-.p-contact-article {
-    width: $pc-article-width * 1px;
-    margin-bottom: 276.6px;
-    @include tab {
-        width: $pc-article-width / $tab-responsive * 100%;
-        margin-bottom: 81px;
-    }
-    @include sp {
-        width: $sp-article-width / $sp-standard * 100%;
-    }
-}
-
 .p-contact-title {
     margin-top: 150px;
     @include tab {
@@ -162,24 +109,36 @@
     }
 }
 
-.p-contact-text {
-    margin-top: 146px;
-    padding-left: 138 / $pc-article-width * 100%;
-    padding-right: 138 / $pc-article-width * 100%;
-    @include tab {
-        margin-top: 33px;
-    }
-    @include sp {
-        padding-left: 0;
-        padding-right: 0;
-    }
-}
-
 .p-article {
-    width: 100%;
-    background-color: $palette-gray;
+    &.about {
+        margin-top: 152px;
+        @include tab {
+            margin-top: 103px;
+        }
+    }
+
+    &.skill {
+        margin-top: 147px;
+        margin-bottom: 67px;
+        @include tab {
+            margin-top: 127px;
+            margin-bottom: 0px;
+        }    
+    }
+
+    &.contact {
+        margin-bottom: 276.6px;
+        @include tab {
+            margin-bottom: 81px;
+        }
+    
+    }
+
     &.information {
         padding-top: 30px;
     }
-}
 
+    &.information, &.concept, &.features, &.environment, &.skill, &.works, &.contact {
+        width: 100%;
+    }
+}

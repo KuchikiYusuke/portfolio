@@ -15,16 +15,6 @@
     }
 }
 
-.p-features-list {
-    width: $pc-article-width * 1px;
-    @include tab {
-        width: $pc-article-width / $tab-responsive * 100%;
-    }
-    @include sp {
-        width: $sp-article-width / $sp-standard * 100%;
-    }
-}
-
 .p-features {
     width: 1004px;
     @include tab {

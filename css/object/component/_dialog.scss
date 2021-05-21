@@ -246,13 +246,26 @@
     margin-top: 20px;
 }
 
-.c-information-title {
-    width: $pc-article-width * 1px;
-    @include tab {
-        width: $pc-article-width / $tab-responsive * 100%;
+.c-features-text {
+    margin-top: 20px;
+}
+
+.c-concept-text {
+    margin-top: 40px;
+}
+
+.c-reference-hp {
+    color:$palette-blue;
+    border-bottom: solid 1px;
+    &:hover {
+        color: $palette-red;
     }
-    @include sp {
-        width: $sp-article-width / $sp-standard * 100%;
+}
+
+.c-contact-text {
+    margin-top: 146px;
+    @include tab {
+        margin-top: 33px;
     }
 }
 
