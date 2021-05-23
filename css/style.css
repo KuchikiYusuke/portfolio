@@ -843,260 +843,6 @@ body {
           box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
 }
 
-.c-mon-16-bold-10-text {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  letter-spacing: 0.01em;
-}
-
-@media (max-width: 1140px) {
-  .c-mon-16-bold-10-text {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
-    font-weight: 700;
-    letter-spacing: 0.01em;
-  }
-}
-
-.c-mon-16-bold-20-text {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  letter-spacing: 0.02em;
-}
-
-@media (max-width: 1140px) {
-  .c-mon-16-bold-20-text {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
-    font-weight: 700;
-    letter-spacing: 0.02em;
-  }
-}
-
-.c-mon-18-regular-text {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  letter-spacing: 0em;
-}
-
-@media (max-width: 599px) {
-  .c-mon-18-regular-text {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-    letter-spacing: 0em;
-  }
-}
-
-.c-mon-20-bold-text {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
-  font-weight: 700;
-  letter-spacing: 0.05em;
-}
-
-.c-mon-24-bold-0-text {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
-  font-weight: 700;
-  letter-spacing: 0em;
-}
-
-.c-mon-24-bold-20-text {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
-  font-weight: 700;
-  letter-spacing: 0.02em;
-}
-
-.c-mon-48-bold-0-text {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 48px;
-  font-weight: 800;
-  letter-spacing: 0em;
-}
-
-@media (max-width: 1140px) {
-  .c-mon-48-bold-0-text {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 38px;
-    font-weight: 800;
-    letter-spacing: 0em;
-  }
-}
-
-.c-mon-48-bold-20-text {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 48px;
-  font-weight: 800;
-  letter-spacing: 0.02em;
-}
-
-@media (max-width: 1140px) {
-  .c-mon-48-bold-20-text {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 38px;
-    font-weight: 800;
-    letter-spacing: 0.02em;
-  }
-}
-
-.c-mon-80-bold-text {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 80px;
-  font-weight: 800;
-  letter-spacing: 0.05em;
-}
-
-@media (max-width: 1140px) {
-  .c-mon-80-bold-text {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
-    font-weight: 800;
-    letter-spacing: 0.05em;
-  }
-}
-
-.c-yu-12-bold-text {
-  font-family: "Yu Gothic", "Yu Gothic Medium", "游ゴシック Medium", "YuGothic", "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 0.05em;
-}
-
-.c-yu-16-bold-text {
-  font-family: "Yu Gothic", "Yu Gothic Medium", "游ゴシック Medium", "YuGothic", "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  letter-spacing: 0em;
-}
-
-@media (max-width: 1140px) {
-  .c-yu-16-bold-text {
-    font-family: "Yu Gothic", "Yu Gothic Medium", "游ゴシック Medium", "YuGothic", "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
-    font-size: 12px;
-    font-weight: 400;
-    letter-spacing: 0em;
-  }
-}
-
-.c-yu-16-medium-0-text {
-  font-family: "Yu Gothic", "Yu Gothic Medium", "游ゴシック Medium", "YuGothic", "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  letter-spacing: 0em;
-}
-
-@media (max-width: 1140px) {
-  .c-yu-16-medium-0-text {
-    font-family: "Yu Gothic", "Yu Gothic Medium", "游ゴシック Medium", "YuGothic", "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
-    font-size: 12px;
-    font-weight: 500;
-    letter-spacing: 0em;
-  }
-}
-
-.c-yu-16-medium-10-text {
-  font-family: "Yu Gothic", "Yu Gothic Medium", "游ゴシック Medium", "YuGothic", "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  letter-spacing: 0.01em;
-}
-
-@media (max-width: 1140px) {
-  .c-yu-16-medium-10-text {
-    font-family: "Yu Gothic", "Yu Gothic Medium", "游ゴシック Medium", "YuGothic", "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
-    font-size: 12px;
-    font-weight: 500;
-    letter-spacing: 0.01em;
-  }
-}
-
-.c-yu-16-medium-50-text {
-  font-family: "Yu Gothic", "Yu Gothic Medium", "游ゴシック Medium", "YuGothic", "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  letter-spacing: 0.05em;
-}
-
-@media (max-width: 1140px) {
-  .c-yu-16-medium-50-text {
-    font-family: "Yu Gothic", "Yu Gothic Medium", "游ゴシック Medium", "YuGothic", "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
-    font-size: 12px;
-    font-weight: 500;
-    letter-spacing: 0.05em;
-  }
-}
-
-.c-yu-24-bold-0-text {
-  font-family: "Yu Gothic", "Yu Gothic Medium", "游ゴシック Medium", "YuGothic", "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
-  font-size: 24px;
-  font-weight: 800;
-  letter-spacing: 0em;
-}
-
-@media (max-width: 1140px) {
-  .c-yu-24-bold-0-text {
-    font-family: "Yu Gothic", "Yu Gothic Medium", "游ゴシック Medium", "YuGothic", "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
-    font-size: 20px;
-    font-weight: 800;
-    letter-spacing: 0em;
-  }
-}
-
-.c-copy-title-size {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 64px;
-  font-weight: 800;
-  letter-spacing: 0em;
-}
-
-@media (max-width: 1140px) {
-  .c-copy-title-size {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 5vw;
-    font-weight: 800;
-    letter-spacing: 0em;
-  }
-}
-
-@media (max-width: 599px) {
-  .c-copy-title-size {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
-    font-weight: 800;
-    letter-spacing: 0em;
-  }
-}
-
-.c-copy-text-size {
-  font-family: "Yu Gothic", "Yu Gothic Medium", "游ゴシック Medium", "YuGothic", "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
-  font-size: 24px;
-  font-weight: 800;
-  letter-spacing: 0.05em;
-}
-
-@media (max-width: 1140px) {
-  .c-copy-text-size {
-    font-family: "Yu Gothic", "Yu Gothic Medium", "游ゴシック Medium", "YuGothic", "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
-    font-size: 1.8vw;
-    font-weight: 800;
-    letter-spacing: 0.05em;
-  }
-}
-
-@media (max-width: 599px) {
-  .c-copy-text-size {
-    font-family: "Yu Gothic", "Yu Gothic Medium", "游ゴシック Medium", "YuGothic", "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
-    font-size: 16px;
-    font-weight: 800;
-    letter-spacing: 0.05em;
-  }
-}
-
 .c-skill-li {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -1439,6 +1185,12 @@ body {
 
 .c-works-img {
   width: 100%;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.c-works-img:hover {
+  opacity: 0.6;
 }
 
 .c-information-column {
@@ -1755,6 +1507,260 @@ body {
 @media (max-width: 599px) {
   .u-article-width {
     width: 93.06667%;
+  }
+}
+
+.u-mon-16-bold-10-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+@media (max-width: 1140px) {
+  .u-mon-16-bold-10-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+  }
+}
+
+.u-mon-16-bold-20-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+@media (max-width: 1140px) {
+  .u-mon-16-bold-20-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+  }
+}
+
+.u-mon-18-regular-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+
+@media (max-width: 599px) {
+  .u-mon-18-regular-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0em;
+  }
+}
+
+.u-mon-20-bold-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.u-mon-24-bold-0-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0em;
+}
+
+.u-mon-24-bold-20-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.u-mon-48-bold-0-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 48px;
+  font-weight: 800;
+  letter-spacing: 0em;
+}
+
+@media (max-width: 1140px) {
+  .u-mon-48-bold-0-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 38px;
+    font-weight: 800;
+    letter-spacing: 0em;
+  }
+}
+
+.u-mon-48-bold-20-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 48px;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+}
+
+@media (max-width: 1140px) {
+  .u-mon-48-bold-20-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 38px;
+    font-weight: 800;
+    letter-spacing: 0.02em;
+  }
+}
+
+.u-mon-80-bold-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 80px;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+}
+
+@media (max-width: 1140px) {
+  .u-mon-80-bold-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 0.05em;
+  }
+}
+
+.u-yu-12-bold-text {
+  font-family: "Yu Gothic", "Yu Gothic Medium", "游ゴシック Medium", "YuGothic", "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.u-yu-16-bold-text {
+  font-family: "Yu Gothic", "Yu Gothic Medium", "游ゴシック Medium", "YuGothic", "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+
+@media (max-width: 1140px) {
+  .u-yu-16-bold-text {
+    font-family: "Yu Gothic", "Yu Gothic Medium", "游ゴシック Medium", "YuGothic", "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0em;
+  }
+}
+
+.u-yu-16-medium-0-text {
+  font-family: "Yu Gothic", "Yu Gothic Medium", "游ゴシック Medium", "YuGothic", "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0em;
+}
+
+@media (max-width: 1140px) {
+  .u-yu-16-medium-0-text {
+    font-family: "Yu Gothic", "Yu Gothic Medium", "游ゴシック Medium", "YuGothic", "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0em;
+  }
+}
+
+.u-yu-16-medium-10-text {
+  font-family: "Yu Gothic", "Yu Gothic Medium", "游ゴシック Medium", "YuGothic", "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+@media (max-width: 1140px) {
+  .u-yu-16-medium-10-text {
+    font-family: "Yu Gothic", "Yu Gothic Medium", "游ゴシック Medium", "YuGothic", "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+  }
+}
+
+.u-yu-16-medium-50-text {
+  font-family: "Yu Gothic", "Yu Gothic Medium", "游ゴシック Medium", "YuGothic", "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+}
+
+@media (max-width: 1140px) {
+  .u-yu-16-medium-50-text {
+    font-family: "Yu Gothic", "Yu Gothic Medium", "游ゴシック Medium", "YuGothic", "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+  }
+}
+
+.u-yu-24-bold-0-text {
+  font-family: "Yu Gothic", "Yu Gothic Medium", "游ゴシック Medium", "YuGothic", "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  letter-spacing: 0em;
+}
+
+@media (max-width: 1140px) {
+  .u-yu-24-bold-0-text {
+    font-family: "Yu Gothic", "Yu Gothic Medium", "游ゴシック Medium", "YuGothic", "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 0em;
+  }
+}
+
+.u-copy-title-size {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 64px;
+  font-weight: 800;
+  letter-spacing: 0em;
+}
+
+@media (max-width: 1140px) {
+  .u-copy-title-size {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5vw;
+    font-weight: 800;
+    letter-spacing: 0em;
+  }
+}
+
+@media (max-width: 599px) {
+  .u-copy-title-size {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 0em;
+  }
+}
+
+.u-copy-text-size {
+  font-family: "Yu Gothic", "Yu Gothic Medium", "游ゴシック Medium", "YuGothic", "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+}
+
+@media (max-width: 1140px) {
+  .u-copy-text-size {
+    font-family: "Yu Gothic", "Yu Gothic Medium", "游ゴシック Medium", "YuGothic", "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+    font-size: 1.8vw;
+    font-weight: 800;
+    letter-spacing: 0.05em;
+  }
+}
+
+@media (max-width: 599px) {
+  .u-copy-text-size {
+    font-family: "Yu Gothic", "Yu Gothic Medium", "游ゴシック Medium", "YuGothic", "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 0.05em;
   }
 }
 

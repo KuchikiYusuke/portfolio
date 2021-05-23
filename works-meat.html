@@ -12,7 +12,7 @@
     <body>
         <header class="l-header u-b-color-gray">
             <a href="index.html" class="c-logo c-logo-text">Portfolio</a>
-            <a href="http://www.tanka-all-night.net/tanka/" class="c-launch-btn">
+            <a href="http://35.73.111.73:8080/" class="c-launch-btn">
                 <span>site link</span>
             </a>
         </header>
@@ -26,19 +26,15 @@
                 <table class="p-information-table">
                     <tr class="c-information-column">
                         <th class="u-mon-16-bold-10-text c-left-column">制作期間</th>
-                        <td class="u-yu-16-bold-text c-right-column">2週間</td>
+                        <td class="u-yu-16-bold-text c-right-column">5日間</td>
                     </tr>
                     <tr class="c-information-column">
                         <th class="u-mon-16-bold-10-text c-dotted-line c-left-column">言語</th>
-                        <td class="u-yu-16-bold-text c-dotted-line c-right-column">HTML/CSS/JavaScript/PHP/Python</td>
+                        <td class="u-yu-16-bold-text c-dotted-line c-right-column">HTML/CSS/JavaScript</td>
                     </tr>
                     <tr class="c-information-column">
                         <th class="u-mon-16-bold-10-text c-dotted-line c-left-column">開発環境</th>
-                        <td class="u-yu-16-bold-text c-dotted-line c-right-column">AWS/Linux</td>
-                    </tr>
-                    <tr class="c-information-column">
-                        <th class="u-mon-16-bold-10-text c-dotted-line c-left-column">データベース</th>
-                        <td class="u-yu-16-bold-text c-dotted-line c-right-column">MySQL</td>
+                        <td class="u-yu-16-bold-text c-dotted-line c-right-column">AWS/Linux/Docker</td>
                     </tr>
                 </table>
             </article>
@@ -48,10 +44,7 @@
                     <span class="c-works-jap u-yu-16-bold-text">制作意図</span>
                 </h2>
                 <p class="u-yu-16-bold-text c-concept-text">
-                    <a href="http://swimmie.me/" class="c-reference-hp">このホームページ</a>を見て、スクロールに合わせて、文字が浮かんでは消えていくアニメーションが面白いな、と感じた。<br>
-                    自分でも、スクロールに合わせて浮かんで消えていくアニメーションを作りたい、と考えたのが、このサイトの制作のきっかけである。<br>
-                    <br>
-                    スクロールに合わせて、浮かんでは消えていく短歌を眺めながら、気づけば一晩中スクロールし続けているようなサイトを目指した。
+                    基本的なHTML、CSSを用いて、シンプルな単一のキャンペーンサイトを制作する。
                 </p>
             </article>
             <article class="p-article features l-flex-column-center u-article-padding-bottom u-b-color-gray">
@@ -61,37 +54,16 @@
                 </h2>
                 <ul class="p-features-list l-flex-column-center u-article-width">
                     <li class="p-features l-flex-column-center">
-                        <h3 class="u-yu-24-bold-0-text c-features-title">無限スクロールにより、次々短歌が現れる</h3>
+                        <span class="u-yu-24-bold-0-text c-features-title">レスポンシブデザインの実装</span>
                         <p class="u-yu-16-bold-text c-features-text">
-                            スクロールし続けられるサイトにするため、ページの短歌数に制限を設けず、無限スクロールで短歌を表示し続けられるようにした。<br>
-                            無限スクロールは、ページのフッター部分を監視対象にしフッター部分がビューポートと交差したことをきっかけに、要素の追加処理を行う実装にした。<br>
-                            ユーザーが要素の追加処理をストレスに感じないよう、非同期処理で要素の追加処理を実装した。
+                            レスポンシブデザインを用い、端末ごとに最適の表示を行う実装を行った。
                         </p>
-                        <video controls class="c-features-video">
-                            <source src='video/infinite-scroll.mp4' type='video/mp4'>
-                        </video>
                     </li>
                     <li class="p-features l-flex-column-center">
-                        <h3 class="u-yu-24-bold-0-text c-features-title">読み手、キーワードから検索が可能</h3>
+                        <span class="u-yu-24-bold-0-text c-features-title">SCSSを用いた実装</span>
                         <p class="u-yu-16-bold-text c-features-text">
-                            ユーザーの要望に沿った短歌を表示するため、短歌の検索機能を実装した。<br>
-                            JavaScriptからSELECTクエリを実装したPHPを実行し、DBに格納されている短歌を取得する。
+                            SCSSを用い、ミックスイン・継承による効率的なCSSの実装を行った。
                         </p>
-                        <video controls class="c-features-video">
-                            <source src='video/search.mp4' type='video/mp4'>
-                        </video>
-                    </li>
-                    <li class="p-features l-flex-column-center">
-                        <h3 class="u-yu-24-bold-0-text c-features-title">短歌のイメージ画像を古く加工している</h3>
-                        <p class="u-yu-16-bold-text c-features-text">
-                            載せている短歌は青空文庫から引用しているため、50年以上前の作品である。<br>
-                            イメージ画像も短歌の年代に合わせるため、画像をセピア調の色彩に変更した。<br>
-                            画像をセピア調に変換するために、Pythonで色の種類、鮮やかさを固定し、明るさをグレースケール化した。
-                        </p>
-                        <ul class="c-features-img-list l-flex-row-center">
-                            <li class="c-features-img-area"><img src="images/works/feature/may.jpg" class="c-features-img"></li>
-                            <li class="c-features-img-area"><img src="images/works/feature/sepia_may.jpg" class="c-features-img"></li>
-                        </ul>
                     </li>
                 </ul>
             </article>
@@ -100,13 +72,13 @@
                     <span class="u-mon-48-bold-20-text c-under-line-15">Environment</span>
                     <span class="c-works-jap u-yu-16-bold-text">環境</span>
                 </h2>
-                <h3 class="u-yu-24-bold-0-text c-features-title">ネットワーク負荷を下げるため、画像の保存先をEC2ではなく、バケットにしている</h3>
+                <p class="u-yu-24-bold-0-text c-features-title">ネットワーク負荷を下げるため、画像の保存先をEC2ではなく、バケットにしている</p>
                 <p class="u-yu-16-bold-text c-features-text">
                     本サイトは、スクロールごとに画像、短歌を表示するため、EC2(Webサーバ)との通信頻度が高い。<br>
                     ネットワーク負荷を分散するため、画像データをバケットから受け取る設計にした。
                 </p>
                 <div class="c-environment-img-area u-article-width u-b-color-white">
-                    <img src="images/works/environment/tanka.png" class="c-environment-img">
+                    <img src="images/works/environment/meat.png" class="c-environment-img">
                 </div>
             </article>
        </main>
