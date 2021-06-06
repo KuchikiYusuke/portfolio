@@ -113,6 +113,7 @@
 .c-dotted-line {
     height: 1px;
     position: relative;
+    z-index: +1;
     &:before {
         content: "";
         background-image: linear-gradient(to right, $palette-light-gray, $palette-light-gray 2px, transparent 2px, transparent 4px);
@@ -123,6 +124,7 @@
         bottom: 0;
         left: 0;
         right: 0;
+        z-index: -1;
     }
 }
 
